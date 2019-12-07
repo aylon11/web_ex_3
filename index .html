@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+        <link rel="stylesheet" href="./src/style.css">
+        <script src="./src/script.js"></script>
+        <style>
+        </style>
+    </head>
+    <body onload="startGame()">
+        <div class="counter">
+            <h3>STEP COUNTER: <a id="steps">0</a></h3>
+        </div>
+        <div>
+        <button id="buttons" onclick="moveup()">UP</button><br><br>
+        <button id="buttons" onclick="moveleft()">LEFT</button>
+        <button id="buttons" onclick="moveright()">RIGHT</button><br><br>
+        <button id="buttons" onclick="movedown()">DOWN</button>
+        </div>
+        <div><h5>USE THE ARROW KEYS OR CLICK THE DIRECTION BUTTONS</h5></div>
+        <button  id="dButton" onclick="dMode()">Toggle Dark Mode</button>
+    </body>
+</html>
